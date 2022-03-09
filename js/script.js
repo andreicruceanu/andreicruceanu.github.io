@@ -230,10 +230,10 @@ function sendEmail() {
      Subject : document.getElementById("subject").value,
      
      Body : "<br> Name: " + document.getElementById("name").value 
+
           + "<br> Email: " + document.getElementById("email").value
+
           + "<br> Mesaj: " + document.getElementById("message").value
-     
-    
 
 }).then(
 function (message) {
