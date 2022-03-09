@@ -794,13 +794,12 @@ body.dark .shadow-dark {
 .form-group p {
   color: red;
   font-size: 16px;
-  margin-left: 20px ;
+  margin-left: 20px;
   padding-top: 5px;
   display: none;
-  
 }
 .form-group.error p {
-   display: block; 
+  display: block;
 }
 .mesaj-server p {
   margin-top: 20px;
