@@ -9,15 +9,15 @@ const buttonRO =  document.querySelector("#languageRO")
 
 
 //loader
-// window.addEventListener("load", function () {
-//   setTimeout(function () {
-//     document.querySelector(".preloader").classList.add("opacity-0");
-//   }, 1200);
+window.addEventListener("load", function () {
+ setTimeout(function () {
+     document.querySelector(".preloader").classList.add("opacity-0");
+   }, 1200);
 
-//   setTimeout(function () {
-//     document.querySelector(".preloader").style.display = "none";
-//   }, 2000);
-// });
+  setTimeout(function () {
+    document.querySelector(".preloader").style.display = "none";
+   }, 2000);
+ });
 
 //loader
 
