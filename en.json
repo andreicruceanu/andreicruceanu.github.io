@@ -1,0 +1,51 @@
+{ "homePage" : {
+    "Home" : "Home",
+    "About" : "About",
+    "Service" : "Service",
+    "Project" : "Project" , 
+    "Contact" : "Contact",
+    "styleSwitcher" : "Style Switcher"
+    } ,
+    "aboutPage" : {
+        "aboutTitle" : "About Me",
+        "subTitleAbout" : "Hello, my name is Cruceanu Andrei",
+        "contentAbout" : "Allow me to say that the areas that I have the most knowledge about are HTML5 / CSS3, Javascript, Bootstrap and Wordpress. In addition to this, I am also proficient in Adobe Photoshop and Adobe Illustrator. As a person I am perseverant, flexible, open minded and always eager to learn new things and tackle new challanges. I am very passionate about web development and web design, always trying to give my best in order to create „the perfect product”.",
+        "birthday" : "Birthday" , 
+        "age" : "Age" ,
+        "email" : "Email",
+        "phone" : "Phone",
+        "city" : "City",
+        "cv" : "Download CV",
+        "education" : "Education",
+        "colage" : "Vasile Alecsandri National College , Bacau",
+        "profile" : "Profile: Mathematical Informatics",
+        "university" : "Politehnica University of Bucharest",
+        "engineering" : "Faculty of Mechanical Engineering and Mechatronics",
+        "specialization" : "Specialization : Mechatronics",
+        "bucharest": "Bucharest",
+        "courses" : "Training Courses",
+        "platformaIT": "IT Platform: Introduction to Web Development",
+        "viewPlatformaIt": "View",
+        "viewUdemyJS" : "Udemy: Javascript course - from beginner to advanced",
+        "time" : " 2022 - present",
+        "courseJS" : "The Complete JavaScript Course 2021: From Zero to Expert!"
+        
+    } , 
+    "Contact" : {
+        "contactMe": "Contact Me",
+        "contactSubTitle": "Contact Me", 
+        "contactHome" : "Home" , 
+        "contactCity" : "Bucharest",
+        "Email" : "Email",
+        "name" : "Name" , 
+        "Subject" : "Subject" , 
+        "Message" : "Your Message...", 
+        "SendMessage" : "Send Message" ,
+        "errorName" : "Name is required" , 
+        "errorEmail" : "Email is required" , 
+        "errorSubject" : "Subject is required" , 
+        "errorMessage" : "Message is required"
+      }
+
+   
+}

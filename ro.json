@@ -1,0 +1,51 @@
+{ "homePage" : {
+    "Home" : "Acasa",
+    "About" : "Despre",
+    "Service" : "Servicii",
+    "Project" : "Proiecte" , 
+    "Contact" : "Contact" , 
+    "styleSwitcher" : "Schimba stilul"
+    } ,
+    "aboutPage" : {
+        "aboutTitle" : "Despre mine",
+        "subTitleAbout" : "Salut, numele meu este Cruceanu Andrei",
+        "contentAbout" : "Permiteți-mi să spun că domeniile despre care am cele mai multe cunoștințe sunt HTML5 / CSS3, Javascript, Bootstrap și Wordpress. Pe lângă acestea, sunt și expert în Adobe Photoshop și Adobe Illustrator. Ca persoană, sunt perseverent, flexibil, deschis la minte și mereu dornic să învăț lucruri noi și să abordez noi provocări. Sunt foarte pasionat de dezvoltare web și web design, încercând mereu să dau tot ce am mai bun pentru a crea „produsul perfect”.",
+        "birthday" : "Zi de nastere" , 
+        "age" : "Varsta" ,
+        "email" : "E-mail",
+        "phone" : "Telefon",
+        "city" : "Oras",
+        "cv" : "Descarca CV",
+        "education" : "Educatie",
+        "colage" : "Colegiul National ''Vasile Alecsandri'', Bacau",
+        "profile" : "Profil: Matematica-Informatica",
+        "university" : "Universitatea Politehnica din Bucuresti",
+        "engineering" : "Facultatea de Inginerie Mecanică și Mecatronică",
+        "specialization" : "Specializare: Mecatronică",
+        "bucharest": "Bucuresti",
+        "courses" : "Cursuri",
+        "platformaIT": "Platforma IT: Introducere in Web Development",
+        "viewPlatformaIt": "Vizualizeaza",
+        "viewUdemyJS" : "Udemy: Curs Javascript-de la începător la avansat",
+        "time" : " 2022 - prezent",
+        "courseJS" : "The Complete JavaScript Course 2021: From Zero to Expert!"
+        
+    },
+    "Contact" : {
+        "contactMe": "Contactați-mă",
+        "contactSubTitle": "Contactați-mă", 
+        "contactHome" : "Acasă" , 
+        "contactCity" : "București",
+        "Email" : "E-mail",
+        "name" : "Nume" , 
+        "Subject" : "Subiect" , 
+        "Message" : "Mesajul dumneavoastră...", 
+        "SendMessage" : "Trimite Mesajul",
+        "errorName" : "Completează nume" , 
+        "errorEmail" : "Completează Email" , 
+        "errorSubject" : "Completează subiect" , 
+        "errorMessage" : "Completează mesaj"
+    }
+
+  
+}
