@@ -226,6 +226,7 @@ for (let i = 0; i < totalFilterBtn; i++) {
 
 // project filter
 
+
 //nav
 
 const nav = document.querySelector(".nav");
