@@ -711,7 +711,6 @@ body.dark .shadow-dark {
   font-size: 18px;
   font-weight: 700;
   color: #302e4d;
-  text-transform: capitalize;
   margin: 15px 0 5px;
 }
 .contact .contact-info-item p {
@@ -957,6 +956,37 @@ body.dark .shadow-dark {
   opacity: 1;
 }
 /* Project */
+
+/* Group Button Lauguage */
+.groupButton {
+  display: inline-block;
+  transform: translateY(-2px);
+}
+#languageRO,
+#languageEN {
+  padding: 5px 8px;
+  border: 0.5px solid grey;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fafafa;
+}
+.activeLanguage {
+  background-color: #e0e0e0 !important;
+}
+#languageRO {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  transform: translateX(5px);
+  cursor: pointer !important;
+}
+#languageEN {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer !important;
+}
+/* Group Button Lauguage */
 
 /* Responsive */
 @media (max-width: 1199px) {
