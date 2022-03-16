@@ -49,4 +49,3 @@ if (localStorage.getItem('darkMode') == "true") {
   document.getElementById("dark").checked = true ; 
   document.getElementById("light").checked = false ;
 } 
-
