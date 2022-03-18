@@ -972,6 +972,15 @@ body.dark .shadow-dark {
   border: 1px solid rgba(0, 0, 0, 0.12);
   background-color: #fafafa;
 }
+#languageRO:hover {
+  background-color: #f0f0f0;
+  transition: 0.3s;
+}
+#languageEN:hover {
+  background-color: #f0f0f0;
+  transition: 0.3s;
+}
+
 .activeLanguage {
   background-color: #e0e0e0 !important;
 }
