@@ -30,6 +30,23 @@
         "time" : " 2022 - prezent",
         "courseJS" : "The Complete JavaScript Course 2021: From Zero to Expert!"
         
+    }, 
+    "Services" : {
+       "servicesTitle" : "Servicii",
+       "developing" : "Dezvoltarea si proiectarea site-urilor web",
+       "developingDescription" : "Dau tot ce am mai bun pentru a crea site-uri web rapide, eficiente și atrăgătoare",
+       "responsive" : "Site-uri web responsive",
+       "rensponsiveDescription" : "Crearea și proiectarea de site-uri web utilizând abordarea bazată pe mobil",
+       "creative" : "Design creativ",
+       "creativeDescription" : "Crearea de site-uri web cu „o picătură de unicitate”",
+       "wordpressDescription" : "Dezvoltarea site-urilor web și integrarea lor în Wordpress",
+       "designing" : "Designing UX/UI" , 
+       "designDescription" : "Preocupat de modul în care se simte produsul și de modul în care este aranjat",
+       "minimalistDesign" : "Design minimalist", 
+       "minimalistDesignDescription" : "Proiectarea de site-uri web minimaliste, curate, cu cod rapid și eficient"
+    },
+    "Projects" : {
+        "projects" : "Proiecte"
     },
     "Contact" : {
         "contactMe": "Contactați-mă",
