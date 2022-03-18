@@ -31,6 +31,23 @@
         "courseJS" : "The Complete JavaScript Course 2021: From Zero to Expert!"
         
     } , 
+    "Services" : {
+       "servicesTitle" : "Services",
+       "developing" : "Developing and designing websites",
+       "developingDescription" : "Giving my best in order to create fast, efficient and appealing websites",
+       "responsive" : "Responsive websites",
+       "rensponsiveDescription" : "Creating and designing websites using the mobile-first approach",
+       "creative" : "Creative Design",
+       "creativeDescription" : "Creating websites with „a drop of uniqueness”",
+       "wordpressDescription" : "Developing websites and integrating them into Wordpress",
+       "designing" : "Designing UX/UI" , 
+       "designDescription" : "Concerned with how the product feels and how is laid out",
+       "minimalistDesign" : "Minimalist Design", 
+       "minimalistDesignDescription" : "Designing minimalist, clean websites with fast and efficient code"
+    },
+    "Projects" : {
+        "projects" : "Projects"
+    },
     "Contact" : {
         "contactMe": "Contact Me",
         "contactSubTitle": "Contact Me", 
