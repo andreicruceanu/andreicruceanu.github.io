@@ -10,14 +10,14 @@ const buttonRO =  document.querySelector("#languageRO")
 
 //loader
 window.addEventListener("load", function () {
- setTimeout(function () {
-     document.querySelector(".preloader").classList.add("opacity-0");
-   }, 1200);
+  setTimeout(function () {
+    document.querySelector(".preloader").classList.add("opacity-0");
+  }, 1200);
 
   setTimeout(function () {
     document.querySelector(".preloader").style.display = "none";
-   }, 2000);
- });
+  }, 2000);
+});
 
 //loader
 
@@ -28,7 +28,7 @@ localStorage?.getItem('language') === 'RO' ? languageRomanian() : languageEnglis
 buttonRO.addEventListener("click" , languageRomanian)
 
  buttonEN.addEventListener("click" , languageEnglish)
-
+// 
 function languageRomanian() {
   fetch('ro.json')
   .then(
@@ -54,7 +54,9 @@ function languageRomanian() {
         }
         const homePageText = valuesToArray(data)[0];
         const aboutPageText = valuesToArray(data)[1];
-        const contactPageText = valuesToArray(data)[2];
+        const servicesPageText = valuesToArray(data)[2];
+        const projectPageText = valuesToArray(data)[3];
+        const contactPageText = valuesToArray(data)[4];
 
 
         document.querySelector("._styleSwitcher").innerHTML = `${homePageText.styleSwitcher}`
@@ -88,6 +90,26 @@ function languageRomanian() {
         document.querySelector("._time").innerHTML = `${aboutPageText.time}`;
         document.querySelector("._courseJS").innerHTML = `${aboutPageText.courseJS}`;
         
+         /* Services */
+         document.querySelector("._servicesTitle").textContent = `${servicesPageText.servicesTitle}`
+         document.querySelector("._developing").textContent = `${servicesPageText.developing}`
+         document.querySelector("._developingDescription").textContent = `${servicesPageText.developingDescription}`
+         document.querySelector("._responsive").textContent = `${servicesPageText.responsive}`
+         document.querySelector("._responsiveDescription").textContent = `${servicesPageText.rensponsiveDescription}`
+         document.querySelector("._creaative").textContent = `${servicesPageText.creative}`
+         document.querySelector("._creativeDescription").textContent = `${servicesPageText.creativeDescription}`
+         document.querySelector("._wordpressDescription").textContent = `${servicesPageText.wordpressDescription}`
+         document.querySelector("._designing").textContent = `${servicesPageText.designing}`
+         document.querySelector("._designDescription").textContent = `${servicesPageText.designDescription}`
+         document.querySelector("._minimalistDesign").textContent = `${servicesPageText.minimalistDesign}`
+         document.querySelector("._minimalistDesignDescription").textContent = `${servicesPageText.minimalistDesignDescription}`
+
+         /* Services */
+         /* Project */
+         document.querySelector("._projectTitle").textContent = `${projectPageText.projects}`
+
+         /* Project */
+         
         /* Contact */
         document.querySelector("._contactMe").innerHTML = `${contactPageText.contactMe}`
         document.querySelector("._contactSubTitle").innerHTML = `${contactPageText.contactSubTitle}`
@@ -100,7 +122,7 @@ function languageRomanian() {
         message.placeholder = `${contactPageText.Message}`
         buttonSend.textContent = `${contactPageText.SendMessage}`
         /* Contact */
-    
+        
 
       });
       
@@ -135,7 +157,9 @@ function languageRomanian() {
         }
         const homePageText = valuesToArray(data)[0];
         const aboutPageText = valuesToArray(data)[1];
-        const contactPageText = valuesToArray(data)[2];
+        const servicesPageText = valuesToArray(data)[2];
+        const projectPageText = valuesToArray(data)[3];
+        const contactPageText = valuesToArray(data)[4];
 
 
         document.querySelector("._styleSwitcher").innerHTML = `${homePageText.styleSwitcher}`
@@ -168,6 +192,26 @@ function languageRomanian() {
         document.querySelector("._viewUdemyJS").innerHTML = `${aboutPageText.viewPlatformaIt}`;
         document.querySelector("._time").innerHTML = `${aboutPageText.time}`;
         document.querySelector("._courseJS").innerHTML = `${aboutPageText.courseJS}`;
+
+          /* Services */
+        document.querySelector("._servicesTitle").textContent = `${servicesPageText.servicesTitle}`
+        document.querySelector("._developing").textContent = `${servicesPageText.developing}`
+        document.querySelector("._developingDescription").textContent = `${servicesPageText.developingDescription}`
+        document.querySelector("._responsive").textContent = `${servicesPageText.responsive}`
+        document.querySelector("._responsiveDescription").textContent = `${servicesPageText.rensponsiveDescription}`
+        document.querySelector("._creaative").textContent = `${servicesPageText.creative}`
+        document.querySelector("._creativeDescription").textContent = `${servicesPageText.creativeDescription}`
+        document.querySelector("._wordpressDescription").textContent = `${servicesPageText.wordpressDescription}`
+        document.querySelector("._designing").textContent = `${servicesPageText.designing}`
+        document.querySelector("._designDescription").textContent = `${servicesPageText.designDescription}`
+        document.querySelector("._minimalistDesign").textContent = `${servicesPageText.minimalistDesign}`
+        document.querySelector("._minimalistDesignDescription").textContent = `${servicesPageText.minimalistDesignDescription}`
+
+         /* Services */
+        /* Project */
+        document.querySelector("._projectTitle").textContent = `${projectPageText.projects}`
+
+        /* Project */
         
          /* Contact */
         document.querySelector("._contactMe").innerHTML = `${contactPageText.contactMe}`
@@ -225,7 +269,6 @@ for (let i = 0; i < totalFilterBtn; i++) {
 }
 
 // project filter
-
 
 //nav
 
